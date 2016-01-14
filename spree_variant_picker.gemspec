@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_variant_picker'
-  s.version     = '2.3.1'
+  s.version     = '2.3.9999'
   s.summary     = 'Enhanced variant listing on Spree product pages'
   s.description = 'Enhanced variant listing on Spree product pages'
   s.required_ruby_version = '>= 1.9.3'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_core', '~> 2.3.7.beta'
+  s.add_runtime_dependency 'solidus_core', '~> 1.1.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'coffee-rails'
